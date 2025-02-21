@@ -1,17 +1,16 @@
 import React from "react";
 
 class Test extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            message: "Hello, World!"
-        }
-    }
+  constructor(props) {
+    super(props);
+    this.state = {
+      message: "Hello, World!"
+    };
+  }
 
-    componentDidMount() {
-        console.log("É executado após o componente ser montado");
-        
-    }
+  componentDidMount() {
+    console.log("É executado após o componente ser montado");
+  }
   render() {
     return (
       <div>

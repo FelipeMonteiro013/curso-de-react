@@ -20,7 +20,7 @@ function App() {
       setTasks(data);
     };
 
-    fetchTasks();
+    // fetchTasks();
   }, []);
 
   useEffect(() => {
